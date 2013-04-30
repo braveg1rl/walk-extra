@@ -1,8 +1,22 @@
 # walk-extra [![Build Status](https://travis-ci.org/meryn/walk-extra.png?branch=master)](https://travis-ci.org/meryn/walk-extra) [![Dependency Status](https://david-dm.org/meryn/walk-extra.png)](https://david-dm.org/meryn/walk-extra)
 
-'walk' by coolaj86, plus convenience functions.
+'[walk](https://github.com/coolaj86/node-walk)' by [coolaj86](http://blog.coolaj86.com/), plus convenience functions.
 
-## Usage
+I wrote this code for testing [explorer](http://npmjs.org/package/explorer), but is useful in its own right.
+
+## Functions copied from walk
+
+* walk
+* walkSync
+
+See [walk documentation](https://github.com/coolaj86/node-walk).
+
+## Convenience functions
+
+* getFiles (err, filePaths)
+* getDirectories (err, dirPaths)
+* countFiles (err, fileCount)
+* countDirectories (err, dirCount)
 
 ## Credits
 
