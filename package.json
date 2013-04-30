@@ -1,0 +1,31 @@
+{
+  "name": "walk-extra",
+  "description": "'walk' by coolaj86, plus convenience functions.",
+  "keywords": [],
+  "version": "0.0.0",
+  "author": "Meryn Stol <merynstol@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/meryn/walk-extra",
+  "bugs": "https://github.com/meryn/walk-extra/issues",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/meryn/walk-extra.git"
+  },
+  "private": false,
+  "dependencies": {},
+  "devDependencies": {
+    "coffee-script": "~1.6.2",
+    "mocha": "~1.9.0"
+  },
+  "optionalDependencies": {},
+  "engines": {
+    "node": "0.10.x",
+    "npm": "1.2.x"
+  },
+  "main": "lib/walk-extra.js",
+  "scripts": {
+    "prepublish": "npm test",
+    "pretest": "make build",
+    "test": "make test"
+  }
+}
