@@ -1,5 +1,7 @@
 # walk-extra [![Build Status](https://travis-ci.org/meryn/walk-extra.png?branch=master)](https://travis-ci.org/meryn/walk-extra) [![Dependency Status](https://david-dm.org/meryn/walk-extra.png)](https://david-dm.org/meryn/walk-extra)
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/braveg1rl/walk-extra.svg)](https://greenkeeper.io/)
+
 '[walk](https://github.com/coolaj86/node-walk)' by [coolaj86](http://blog.coolaj86.com/), plus convenience functions.
 
 I wrote this code for testing [explorer](http://npmjs.org/package/explorer), but is useful in its own right.
